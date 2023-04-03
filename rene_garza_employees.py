@@ -28,6 +28,7 @@ employees = load_data(nrows=nrows)
 
 
 sidebar = st.sidebar
+sidebar.subheader('René Jair Garza Rojas | Aplicación web de ciencia de datos')
 sidebar.title('Opciones del análisis')
 sidebar.write('El resultado de las selecciones y filtros se verán reflejados en el apartado que indiqué el subheader')
 sidebar.subheader('Datos considerados en el análisis')
