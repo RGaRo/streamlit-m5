@@ -15,5 +15,4 @@ if (myname):
     filterbyname = load_data_byname(myname.upper())
     count_row = filterbyname.shape[0]
     st.write(f"Total names : {count_row}")
-
     st.dataframe(filterbyname)
