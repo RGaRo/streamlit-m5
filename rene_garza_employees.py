@@ -111,7 +111,7 @@ if (unidad):
     seccion_5.write(f"El total de empleados de {unidad} es de {len(datos)} ")
 
 seccion_6 = st.expander("Histograma de empleados agrupados por edad", False)
-seccion_6.header("Histograma de empleados agrupados por edad, tomando como referencia la el dataframe obtenido en la sección 'Datos considerados en el análisis'")
+seccion_6.header("Histograma de empleados agrupados por edad")
 seccion_6.write("Este apartado muestra un histograma de los empleados agrupados por edad, tomando como referencia el dataframe obtenido en la sección 'Datos considerados en el análisis' que incluye solo una muestra de los datos")
 cantidad_bins = seccion_6.slider(
     "Selecciona la cantidad de bins",
