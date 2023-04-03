@@ -6,7 +6,7 @@ import numpy as np
 import seaborn as sns
 
 # Lectura de datos
-DATA_URL = ('Reto/Employees.csv')
+DATA_URL = ('Employees.csv')
 
 @st.cache
 def load_data(nrows):
